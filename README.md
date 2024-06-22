@@ -16,6 +16,6 @@
 ## 
 
 <h3 align="center">  1.) Run the Application...</h3>
-### v0.1.0
+<h3 align="center">v0.1.0</h4>
     <img src="./images/hashVarPic1.png"/>
 
