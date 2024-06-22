@@ -24,3 +24,12 @@
 
 <h3 align="center">  3.) Copy(Ctrl + c) and Paste(Ctrl + v) the checksum.</h3>
     <img src="./images/hashVarPic_031.png"/>
+
+<h3 align="center">  4.) If a different algorithm is needed then press the drop down menu and change accordingly.</h3>
+    <img src="./images/hashVarPic_032.png"/>
+
+<h3 align="center">  5.) Finally, press the "Verify Checksum" button. If correct then green is good.</h3>
+    <img src="./images/hashVarPic_040.png"/>
+
+<h3 align="center">  6.) ...Otherwise Red is no good.</h3>
+    <img src="./images/hashVarPic_042.png"/>
