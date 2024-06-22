@@ -21,3 +21,6 @@
 
 <h3 align="center">  2.) Press "Load File", then select correct file.</h3>
     <img src="./images/hashVarPic_021.png"/>
+
+<h3 align="center">  3.) Copy(Ctrl + c) and Paste(Ctrl + v) the checksum.</h3>
+    <img src="./images/hashVarPic_031.png"/>
