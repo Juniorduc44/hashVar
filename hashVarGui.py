@@ -1,4 +1,4 @@
-# version 0.1.1
+# version 0.1.2
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import customtkinter as ctk
@@ -89,10 +89,11 @@ class ChecksumVerificationApp(ctk.CTk):
         if calculated_checksum == expected_checksum:
             self.result_label.configure(text="Checksum Matched!", text_color="green")
             self.result_label1.configure(text={calculated_checksum}, text_color="white")
-            self.result_label2.configure(text={calculated_checksum}, text_color="white")
+            self.result_label2.configure(text={expected_checksum}, text_color="white")
         else:
             self.result_label.configure(text="Checksum Mismatched!", text_color="red")
-
+            self.result_label1.configure(text={calculated_checksum}, text_color="white")
+            self.result_label2.configure(text={expected_checksum}, text_color="white")
 if __name__ == "__main__":
     app = ChecksumVerificationApp()
     app.mainloop()
