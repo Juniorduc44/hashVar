@@ -1,4 +1,4 @@
-# version 0.1.2
+# version 0.1.3
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import customtkinter as ctk
@@ -54,10 +54,10 @@ class ChecksumVerificationApp(ctk.CTk):
         self.result_label.pack(pady=10)
 
         # Signatures in Comparison
-        self.result_label1 = ctk.CTkLabel(self, text="", font=("Helvetica", 10))
-        self.result_label1.pack(pady=10)
-        self.result_label2 = ctk.CTkLabel(self, text="", font=("Helvetica", 10))
-        self.result_label2.pack(pady=10)
+        self.result_label1 = ctk.CTkLabel(self, text="", font=("Helvetica", 15))
+        self.result_label1.pack(pady=0)
+        self.result_label2 = ctk.CTkLabel(self, text="", font=("Helvetica", 15))
+        self.result_label2.pack(pady=0)
     def load_file(self):
         file_path = filedialog.askopenfilename()
         if file_path:
