@@ -16,7 +16,7 @@
 ## 
 
 <h3 align="center">  1.) Run the Application...</h3>
-<h3 align="center">v0.1.0</h4>
+<h3 align="center">v0.1.3</h4>
     <img src="./images/hashVarPic_010.png"/>
 
 <h3 align="center">  2.) Press "Load File", then select correct file.</h3>
@@ -29,7 +29,7 @@
     <img src="./images/hashVarPic_032.png"/>
 
 <h3 align="center">  5.) Finally, press the "Verify Checksum" button. If correct then green is good.</h3>
-    <img src="./images/hashVarPic_040.png"/>
+    <img src="./images/hashVarPic_043.png"/>
 
 <h3 align="center">  6.) ...Otherwise Red is no good.</h3>
-    <img src="./images/hashVarPic_042.png"/>
+    <img src="./images/hashVarPic_044.png"/>
