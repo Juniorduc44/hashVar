@@ -1,4 +1,4 @@
-# version 0.1.0
+# version 0.1.1
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import customtkinter as ctk
@@ -53,6 +53,11 @@ class ChecksumVerificationApp(ctk.CTk):
         self.result_label = ctk.CTkLabel(self, text="", font=("Helvetica", 18))
         self.result_label.pack(pady=10)
 
+        # Signatures in Comparison
+        self.result_label1 = ctk.CTkLabel(self, text="", font=("Helvetica", 10))
+        self.result_label1.pack(pady=10)
+        self.result_label2 = ctk.CTkLabel(self, text="", font=("Helvetica", 10))
+        self.result_label2.pack(pady=10)
     def load_file(self):
         file_path = filedialog.askopenfilename()
         if file_path:
@@ -83,6 +88,8 @@ class ChecksumVerificationApp(ctk.CTk):
     def update_result(self, calculated_checksum, expected_checksum):
         if calculated_checksum == expected_checksum:
             self.result_label.configure(text="Checksum Matched!", text_color="green")
+            self.result_label1.configure(text={calculated_checksum}, text_color="white")
+            self.result_label2.configure(text={calculated_checksum}, text_color="white")
         else:
             self.result_label.configure(text="Checksum Mismatched!", text_color="red")
 
